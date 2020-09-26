@@ -19,6 +19,10 @@ var year=parseInt(dateOfBirth.getDate());
      var akanName;
 
      femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
+     maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
      var bornDay;
-     
- 
+
+     if (dayOfTheWeek == 0 && gender == "female") {
+      bornDay = "Saturday";
+      akanName = femaleAkanNames[0];
+     }
