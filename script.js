@@ -19,5 +19,6 @@ var year=parseInt(dateOfBirth.getDate());
      var akanName;
 
      femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
+     var bornDay;
      
  
