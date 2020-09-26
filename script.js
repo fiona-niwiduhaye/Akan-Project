@@ -4,3 +4,5 @@ function formRefresh(){
 }
 dateOfBirth = document.getElementById("date").value
 gender = document.getElementById("gender").value
+
+dateOfBirth = new Date(dateOfBirth);
