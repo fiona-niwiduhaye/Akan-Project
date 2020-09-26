@@ -1,0 +1,22 @@
+
+
+*{
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .form{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+   }
+  .form-group{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+  }
+  .form-check-label{
+    color: rgb(255, 255, 255);
+  }
+  
