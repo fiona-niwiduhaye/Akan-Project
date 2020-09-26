@@ -2,3 +2,5 @@
 function formRefresh(){
   document.getElementById("form_data").reset();
 }
+dateOfBirth = document.getElementById("date").value
+gender = document.getElementById("gender").value
