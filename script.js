@@ -16,4 +16,8 @@ var year=parseInt(dateOfBirth.getDate());
     var dayOfTheWeek = ( centry/4 -2*centry-1 + 5*year/4  + 26*(month+1)/10 + day ) % 7;
 
      dayOfTheWeek = parseInt(dayOfTheWeek);  
+     var akanName;
+
+     femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
      
+ 
