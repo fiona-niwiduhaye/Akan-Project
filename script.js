@@ -18,17 +18,17 @@ dayOfTheWeek = Math.round(dayOfTheWeek);
 
 
     
-     function getGender(){
-      var genders = document.getElementsById("gender");
-      if(genders[0].checked == true){
-        var gender = "male";
-      }
-      else if(genders[1].checked == true){
-        var gender = "female";
-      }
-      else{
-        return false;
-      }
+function getGender(){
+  var genders = document.getElementsById("gender");
+  if(genders[0].checked == true){
+    var gender = "male";
+  }
+  else if(genders[1].checked == true){
+    var gender = "female";
+  }
+  else{
+    return false;
+  }
 
      switch(gender){
       case "male":
