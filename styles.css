@@ -2,21 +2,26 @@
 .left{
   background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
   background-size: center;
-  height: 580px;
+  height: 500px;
+  width:500px ;
   margin: 0;
-color: whitesmoke;
-padding-left: 2px
-
-
+  color: white;
+  padding-top:1px;
+margin-left: 380px;
 
 }
 .right{
-  padding: ;
+  margin-left: 395px;
+background-color:orangered;
+width: 325px;
+
+
 }
 
    .form{
     margin-bottom: 20px;
     padding-bottom: 20px;
+    margin-left:5px;
    }
   .form-group{
     color: rgb(255, 255, 255);

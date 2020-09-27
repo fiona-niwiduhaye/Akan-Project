@@ -7,47 +7,58 @@
   <title>Akan Names</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="jumbotron parent">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="jumbotron p-0 center">
-            <div class="overlay">
 
-              <h2>Enter Your Details Here!</h2>
-                <!--The user input form-->
-              <form id="form_data"  class="form row">
-             
-                <div class="form-group row">
-                      <label class="label-control ">Enter your date of birth:</label>
-                      <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value="" placeholder="Enter your dateofbirth"><br/>    
-                </div>                       
-           
-                <div class="form-group row">
-                  <label>Choose your gender:</label>
-                  <select id="gender" class="form-control form-control-sm">
-                      <option>Choose your gender</option>
-                      <option>Male</option>
-                      <option>Female</option><br>
-                  </select>
-                  </div>  
-                  <div class="row2">
-                  
-                      <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">submit</button>
-                  
-                  </div>
-                      <!-- Result output -->
-              
-                     
- 
-          </form>
-         
-                
-  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 left">
+        <h1 class="text-center ">Akan Names</h1>
+        <p>Hello there! This is a web application that takes your
+          birthday details and calculates the day of the week you
+          were born and then depending on your gender, outputs your
+          Akan Name. Akan names are derived from Ghanian culture.
+          Frequently in Ghana, children are given their first name as a 'day name'
+          which corresponds to the day in the week they were born. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 right">
+
+      <h2>Enter Your Details Here!</h2>
+      <!--The user input form-->
+
+      <form id="form_data" class="form row">
+
+        <div class="form-group row">
+          <label class="label-control ">Enter your date of birth:</label>
+          <input class="form-control form-control-sm col-md-6" type="date" id="birthdate" value=""
+            placeholder="Enter your dateofbirth"><br />
+        </div>
+
+        <div class="form-group row">
+          <label>Choose your gender:</label>
+          <select id="gender" class="form-control form-control-sm">
+            <option>Choose your gender</option>
+            <option>Male</option>
+            <option>Female</option><br>
+          </select>
+        </div>
+
+        <button type="button" class="btn btn-success btn-sm" value="submit" onclick="akanNames()">submit</button>
+
+    </div>
+
+    </form>
+  </div>
+  </div>
+  </div>
+  </div>
+
 </body>
 
 </html>
