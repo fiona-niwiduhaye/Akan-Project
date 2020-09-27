@@ -1,11 +1,20 @@
 
+.left{
+  background-image: url('https://cdn.dribbble.com/users/3409191/screenshots/6302425/image.png');
+  background-size: center;
+  height: 600px;
+  width: 400px;
+  border-radius: 10px 0 0 10px;
+  margin-top: 1px;
+  margin-left: 2px;
+  color: white;
+  font-size:18px ;
+  font-family: 'Fugaz One', cursive;
+text-align:  center;
 
-*{
-    background-image: url("");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
+}
+
+
    .form{
     margin-bottom: 20px;
     padding-bottom: 20px;
