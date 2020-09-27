@@ -88,3 +88,6 @@ function getGender() {
 function akanNames() {
   dayOfTheWeek = calculateDayOfTheWeek();
   getGender();
+}
+//call to the reFresh function
+formRefresh();
