@@ -1,7 +1,7 @@
 # akan-project
 ## by Fiona Niwiduhaye
 
-#Description 
+# Description 
 
 This is a Personal Project that i have created an aplication that submit your akan name also known as Ghana name. 
 Akan names are names given to children in Ghana according to the day of the week they were born also known as the ("day names").
