@@ -31,7 +31,7 @@ Java Script
 
 ### Github Pages link
 
-You can view the live application by following this link
+You can view the live application by following this link: https://fiona-niwiduhaye.github.io/akan-project/
 ## License
 
 MIT Copyright (c) 2020 & Fiona
